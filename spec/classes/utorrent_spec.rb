@@ -9,7 +9,7 @@ describe 'utorrent' do
 
   it do
     should contain_package('utorrent').with({
-      :source   => 'http://download-new.utorrent.com/endpoint/utmac/os/osx/track/stable/uTorrent.pkg',
+      :source   => 'http://download-new.utorrent.com/endpoint/utmac/os/osx/track/stable/',
       :provider => 'appdmg_eula'
     })
   end
